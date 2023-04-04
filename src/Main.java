@@ -8,9 +8,8 @@ public class Main {
         int num1 = scanner.nextInt();
         System.out.println("Введите второе число");
         int num2 = scanner.nextInt();
-        result.getResult();
-
-        System.out.println(result);
+        result.multily(num1, num2);
+        System.out.println();
 
     }
 }
